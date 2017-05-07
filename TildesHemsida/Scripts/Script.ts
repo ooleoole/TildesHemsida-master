@@ -1,12 +1,11 @@
 ﻿namespace FarmSearch {
     window.onload = () => {
         var farmSearch = new FarmSearch();
-        document.getElementById("inputField").focus();
+        var inputField = document.getElementById("inputField") as HTMLInputElement;
+        inputField.value = "";
+        inputField.focus();
         farmSearch.init("inputField", "searchButton", "body");
     };
-
-
-
 
 
     class FarmSearch {
@@ -61,7 +60,7 @@
                 this.imageElement.src = this.tilde;
 
 
-
+            inputElement.value = "";
         }
     }
 }

@@ -2,7 +2,9 @@ var FarmSearch;
 (function (FarmSearch_1) {
     window.onload = function () {
         var farmSearch = new FarmSearch();
-        document.getElementById("inputField").focus();
+        var inputField = document.getElementById("inputField");
+        inputField.value = "";
+        inputField.focus();
         farmSearch.init("inputField", "searchButton", "body");
     };
     var FarmSearch = (function () {
@@ -48,6 +50,7 @@ var FarmSearch;
                     _this.imageElement.src = _this.horse;
                 if (searchPhrase.toLowerCase() === "tilde")
                     _this.imageElement.src = _this.tilde;
+                inputElement.value = "";
             };
         }
         FarmSearch.prototype.init = function (inputField, searchButton, body) {
