@@ -1,0 +1,29 @@
+﻿#Header {
+    font-family: monospace;
+    font-size: 72px;
+    background: -webkit-linear-gradient(plum, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    
+ 
+}
+
+#inputField {
+    width: 300px;
+    border-color: plum;
+    margin: 25px;
+        
+}
+#inputForm {
+    text-align: center;
+    width: 100%;
+}
+
+#searchButton {
+    
+    border-radius: 45%;
+    background-color: plum;
+    align-items: center;
+    padding: 5px 25px 5px 25px;
+}
