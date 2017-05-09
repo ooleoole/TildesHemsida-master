@@ -56,7 +56,8 @@ var FarmSearch;
         FarmSearch.prototype.init = function (inputField, searchButton, body) {
             document.getElementById(inputField).addEventListener("keydown", this.getImageOnEnter, false);
             document.getElementById(searchButton).addEventListener("click", this.getImage, false);
-            document.getElementById(body).addEventListener("keydown", this.getImageOnEnter, false);
+            //document.getElementById(body).addEventListener("keydown", this.getImageOnEnter, false);
+            window.addEventListener("keydown", this.getImageOnEnter, false);
         };
         return FarmSearch;
     }());

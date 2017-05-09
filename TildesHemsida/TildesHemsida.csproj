@@ -67,9 +67,10 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Images\Tilde.JPG" />
-    <Content Include="Images\Tilde2.JPG" />
+    <EmbeddedResource Include="Images\Tilde.JPG" />
+    <EmbeddedResource Include="Images\Tilde2.JPG" />
     <Content Include="packages.config" />
+    <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -78,16 +79,16 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Css\Style.css" />
-    <Content Include="Images\cat.jpg" />
-    <Content Include="Images\farm.jpg" />
-    <Content Include="Images\farmer.jpg" />
-    <Content Include="Images\hay.jpg" />
-    <Content Include="Images\horse.jpg" />
-    <Content Include="Images\john-deere-traktor.jpg" />
-    <Content Include="Images\kor-majorns-hage.JPG" />
-    <Content Include="Images\pig.jpg" />
-    <Content Include="Images\staket-i-hage.jpg" />
+    <EmbeddedResource Include="Css\Style.css" />
+    <EmbeddedResource Include="Images\cat.jpg" />
+    <EmbeddedResource Include="Images\farm.jpg" />
+    <EmbeddedResource Include="Images\farmer.jpg" />
+    <EmbeddedResource Include="Images\hay.jpg" />
+    <EmbeddedResource Include="Images\horse.jpg" />
+    <EmbeddedResource Include="Images\john-deere-traktor.jpg" />
+    <EmbeddedResource Include="Images\kor-majorns-hage.JPG" />
+    <EmbeddedResource Include="Images\pig.jpg" />
+    <EmbeddedResource Include="Images\staket-i-hage.jpg" />
     <Content Include="Views\TildesHemsida.html" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -96,7 +97,7 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <TypeScriptCompile Include="Scripts\Script.ts" />
+    <EmbeddedResource Include="Scripts\Script.ts" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
