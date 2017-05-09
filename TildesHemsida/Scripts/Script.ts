@@ -58,7 +58,7 @@
                 this.imageElement.src = this.horse;
             if (searchPhrase.toLowerCase() === "tilde")
                 this.imageElement.src = this.tilde;
-
+            
 
             inputElement.value = "";
         }

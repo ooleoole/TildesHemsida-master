@@ -27,3 +27,12 @@
     align-items: center;
     padding: 5px 25px 5px 25px;
 }
+
+#image {
+    display: block;
+    margin: auto;
+}
+#imageDiv {
+    margin: auto;
+    padding: 10px;
+}
