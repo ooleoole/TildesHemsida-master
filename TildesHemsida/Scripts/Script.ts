@@ -1,4 +1,4 @@
-﻿namespace FarmSearch {
+﻿export namespace FarmSearch {
     window.onload = () => {
         var farmSearch = new FarmSearch();
         var inputField = document.getElementById("inputField") as HTMLInputElement;
